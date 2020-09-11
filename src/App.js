@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Col, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 
 import youtube from "./api/youtube";
 import { SearchBar, VideoDetail, VideoList } from "./components";
@@ -58,6 +58,7 @@ class App extends Component {
             >
               <img
                 id="logo"
+                alt="youtube logo"
                 src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png"
               />
             </Grid>
